@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="uft-8" />
+    <LINK REL=StyleSheet HREF="/css/style.css" TYPE="text/css" >
+    <title>Tortuga vs Liebre</title>
+
+</head>
+<body>
+
+    <input value="Iniciar Carrera" onclick="Iniciar()" type="button" class="btn btn-info ">
+
+    <div class="il container">
+        <div>
+            <div class="turtle">
+
+            </div>
+            <div class="rabbit">
+
+            </div>
+
+        </div>
+
+        <div>
+            <div class="meta">
+
+            </div>
+
+        </div>
+       
+    </div>
+</body>
+</html>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+<script>
+    function Iniciar()
+{
+        $.ajax({
+
+            url: "Home/iniciar",
+            type: "GET",
+        });
+}</script>

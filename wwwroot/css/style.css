@@ -1,0 +1,41 @@
+﻿/*css creado*/
+
+body {
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(IMG/bosque.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.turtle {
+    width: 100%;
+    height: 30vh;
+    background: url(IMG/turtle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.rabbit {
+    width: 100%;
+    height: 30vh;
+    background: url(IMG/bunny.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.meta {
+    width: 100%;
+    height: 100vh;
+    background: url(IMG/meta.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.il{
+    width:100%;
+    display:inline-flex;
+}
+.il > div{
+    width: 100%;
+   
+}

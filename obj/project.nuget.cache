@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RD//3CmQMSdMbjHnJxrvZgnypGxYjC4idccB9B2BaOQPX87bVe3pv5ghTFb5z4tn41W3NBv19OtGKpI6GWYHow==",
+  "success": true,
+  "projectFilePath": "/Users/manuel/Projects/TYL_LASEC/TYL_LASEC.csproj",
+  "expectedPackageFiles": [
+    "/Users/manuel/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
